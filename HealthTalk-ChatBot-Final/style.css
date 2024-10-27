@@ -1,0 +1,375 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+footer{
+  margin-top:3%;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-family: "Fantasy", Papyrus;
+  font-size: 40px;
+}
+
+#dis{
+  text-align: center;
+  background-color: #79ecb4;
+  font-size: 18px;
+}
+#T1{
+  font-family: "Fantasy", Papyrus;
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+#T2{
+  font-family: "Fantasy", Papyrus;
+  font-size: 30px;
+  margin-left:50%;
+}
+
+#T3{
+  font-family: "Fantasy", Papyrus;
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+#T4{
+  font-family: "Fantasy", Papyrus;
+  font-size: 30px;
+  margin-left:55%;
+}
+
+#bot{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+  /* margin: 5px auto 0 auto; */
+}
+
+#home{
+  background-color: #C3ECCE;
+}
+
+#recipe{
+  background-color: #fabc66;
+}
+#inflammation{
+  background-color: #F3C591;
+}
+
+#img1{
+  border-radius: 10px;
+  border: 10px solid #db9823;
+  display: block;
+  width: 35%;
+  margin-left: 10%;
+  float: left;
+}
+#img2{
+  float: right;
+  border-radius: 10px;
+  border: 10px solid #db9823;
+  display: block;
+  width: 35%;
+  margin-right: 10%;
+}
+#img3{
+  border-radius: 10px;
+  border: 10px solid #db9823;
+  display: block;
+  width: 35%;
+  margin-left: 10%;
+ float:left;
+}
+#img4{
+  float: right;
+  border-radius: 10px;
+  border: 10px solid #db9823;
+  display: block;
+  width: 35%;
+  margin-right: 10%;
+}
+
+#chat-box{
+  width: 80%;
+  height: 200px;
+  background-color: white;
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  overflow-y: scroll;
+  padding: 15px;
+  font-size: 20px;
+}
+
+#user-input{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #6d916c;
+  background-color: white;
+}
+
+#send-btn{
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 10%;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #6d916c;
+  background-color: #C3ECCE;
+}
+
+#ul1{
+  color: black;
+  font-size: 20px;
+  margin-left: 50%;
+  /* position: absolute; */
+  font-family: "Fantasy", Papyrus;
+  top: 35%;
+}
+
+#ul2{
+  color: black;
+  font-size: 20px;
+  margin-left: 5%;
+  position: absolute;
+  font-family: "Fantasy", Papyrus;
+  top: 120%;
+}
+
+#ull{
+  color: black;
+  font-size: 20px;
+  margin-left: 5%;
+  position: absolute;
+  font-family: "Fantasy", Papyrus;
+  top: 140%;
+}
+
+#ulspinach{
+  color: black;
+  font-size: 20px;
+  margin-left: 45%;
+  position: absolute;
+  font-family: "Fantasy", Papyrus;
+  top: 245%;
+}
+
+#ulpesto{
+  color: black;
+  font-size: 20px;
+  margin-left: 5%;
+  position: absolute;
+  font-family: "Fantasy", Papyrus;
+  top: 340%;
+}
+#uld{
+  color: black;
+  font-size: 20px;
+  margin-left: 5%;
+  position: absolute;
+  font-family: "Fantasy", Papyrus;
+  top: 150%;
+}
+
+#ul3{
+  color: black;
+  font-size: 20px;
+  margin-left: 45%;
+  position: absolute;
+  font-family: "Fantasy", Papyrus;
+  top: 215%;
+}
+
+#ul4{
+  color: black;
+  font-size: 20px;
+  margin-left: 5%;
+  position: absolute;
+  font-family: "Fantasy", Papyrus;
+  top: 300%;
+}
+
+#uls{
+  color: black;
+  font-size: 20px;
+  margin-left: 5%;
+  position: absolute;
+  font-family: "Fantasy", Papyrus;
+  top: 310%;
+}
+
+#I1{
+  font-family: "Fantasy", Papyrus;
+  font-size: 30px;
+  text-align: center;
+}
+
+#I2{
+  font-family: "Fantasy", Papyrus;
+  font-size: 30px;
+  text-align: center;
+}
+
+#I3{
+  font-family: "Fantasy", Papyrus;
+  font-size: 30px;
+  text-align: center;
+}
+
+#I4{
+  font-family: "Fantasy", Papyrus;
+  font-size: 30px;
+  text-align: center;
+}
+
+#div1{
+  height: 600px;
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:1%;
+  padding-bottom:10%;
+  background-color: #f9e4c8;
+  border-radius: 10px;
+}
+
+#div2{
+  height: 600px;
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 5%;
+  padding-top:1%;
+  padding-bottom:10%;
+  background-color: #f9e4c8;
+  border-radius: 10px;
+}
+
+#div3{
+  height: 600px;
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 5%;
+  padding-top:1%;
+  padding-bottom:10%;
+  background-color: #f9e4c8;
+  border-radius: 10px;
+}
+
+#divc{
+  height: 600px;
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 5%;
+  padding-top:1%;
+  padding-bottom:10%;
+  background-color: #f9e4c8;
+  border-radius: 10px;
+}
+
+#div4{
+  height: 600px;
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 5%;
+  padding-top:1%;
+  padding-bottom:10%;
+  background-color: #f9e4c8;
+  border-radius: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #aa350e;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+/* Style the links inside the navigation bar */
+.topaff a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add a color to the active/current link */
+#aff {
+  background-color: #f4a4b8;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #da4e8b;
+}
+#affhome{
+  background-color: #f8e3e9;
+}
+#affT{
+  font-family: "Fantasy", Papyrus;
+}
+
+#words{
+  background-color: #f9c8d7;
+  margin: 5%;
+  border-radius:10px;
+  border: 2px solid #f278a9;
+  padding: 2%;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}
+
+#AffI{
+  margin-left:36%;
+  margin-right: 36%;
+  height: 60%;
+  width: 30%;
+  border: 2px solid #f58ed5;
+}
+
+#myBtn{
+display: block;
+margin: 0 auto;
+padding: 10px;
+margin-top: 40px;
+margin-bottom: 40px;
+background-color: #f8ceef;
+font-size: 20px;
+border-radius: 4px;
+border: 2px solid #e56cb2;
+}
+
+#myBtn:hover{
+  background:#eaa9bc ;
+  color:white;
+}
