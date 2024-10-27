@@ -1,0 +1,124 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Universal Styles for the Contact Page */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #ededed;
+  background-color: #e4f9e4; /* Update background color to a light green */
+}
+
+/* Header Styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: #c8f9c8; /* Update header background to a soft green */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  border-bottom: 2px solid #72c272; /* Add border to header with a darker green */
+}
+
+.navbar a {
+  font-size: 18px;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: .3s;
+  padding: 10px 20px; /* Add padding for better click area */
+  background-color: #cef5ce; /* Add background to navbar links with a light green */
+  border-radius: 5px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: white;
+  background-color: #a9d8a9; /* Change hover and active background to a medium green */
+}
+
+/* Container for the Contact Form */
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #e4f9e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contact Form Styles */
+form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 2px solid #72c272; /* Update border style to a medium green */
+}
+
+form h3 {
+  color: #72c272; /* Update heading color to match the border */
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center; /* Center the heading */
+}
+
+form input, form textarea {
+  border: 2px solid #72c272; /* Add border to inputs with the medium green */
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 15px;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  background-color: #7ec97e; /* Update button background to a light green */
+  border: 2px solid #72c272; /* Add border to button with a medium green */
+}
+
+form button:hover {
+  background:#a9d8a9; /* Change hover color for button to a medium green */
+  color:white;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 550px) {
+  form {
+    padding: 2vw;
+  }
+
+  form input, form textarea {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+}

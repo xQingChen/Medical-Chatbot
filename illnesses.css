@@ -1,0 +1,127 @@
+/* General Styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+footer {
+  margin-top: 3%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Papyrus', Fantasy, sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: 'Papyrus', Fantasy, sans-serif;
+  font-size: 30px;
+  margin: 20px 10%;
+}
+
+#T1, #T2 {
+  margin-left: 5%;
+  text-align: left;
+}
+
+/* Container Styling */
+#div1, #div2 {
+  background-color: #1ac6ff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 1200px;
+  overflow: auto; /* Allows the content to clear floats */
+}
+
+#div1 img, #div2 img {
+  border-radius: 10px;
+  border: 10px solid #32b4ec;
+  width: 35%;
+}
+
+#img1, #img3 {
+  float: left;
+  margin-right: 20px;
+}
+
+#img2, #img4 {
+  float: right;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin: 10px 5%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #div1 img, #div2 img {
+    float: none;
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  #div1, #div2 {
+    padding: 15px;
+    margin: 10px 5%;
+  }
+}
+
+footer {
+  background-color: #0055ff;
+  color: white;
+  padding: 10px;
+}
+
+.topnav {
+  background-color: #0055ff;
+  overflow: hidden;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#recipe {
+  background-color: #769be5;
+  min-height: 100%;
+  padding-bottom: 60px; /* Space for the footer */
+}
